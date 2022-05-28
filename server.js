@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // simple route
-app.get("/", (req, res) => res.json({ message: "Welcome to FreezaDev application." });
+app.get("/", (req, res) => res.json({ message: "Welcome to FreezaDev application." }));
 
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;
